@@ -16,6 +16,6 @@ disabled = true
 a0b_armv7m = "*"
 
 [origin]
-commit = "689cd4d711b204ddeebbf34d6ddbdd77baafe091"
+commit = "3f95cc44d20581261794de0c788a4b9f43c9888d"
 url = "git+https://github.com/godunko/a0b-tasking.git"
 
