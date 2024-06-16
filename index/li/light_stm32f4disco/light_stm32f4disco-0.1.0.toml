@@ -19,10 +19,10 @@ a0b_armv7m.fpu_extension = "VFPv4"
 
 [[depends-on]]
 gnat_arm_elf = "*"
-a0b_base = "*"
 a0b_armv7m = "*"
-a0b_svd_stm32f407 = "*"
+a0b_stm32f407 = "*"
 
 [origin]
-commit = "12ea82657a62486cf71418e32d7f77e9ba256faf"
+commit = "b6aaa2fab73dfca93ad29599fe50d25b15121123"
 url = "git+https://github.com/godunko/light-startup.git"
+
