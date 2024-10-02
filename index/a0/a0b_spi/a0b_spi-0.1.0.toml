@@ -1,0 +1,24 @@
+name = "a0b_spi"
+description = "A0B SPI API"
+version = "0.1.0"
+
+authors = ["Vadim Godunko"]
+maintainers = ["Vadim Godunko <vgodunko@gmail.com>"]
+maintainers-logins = ["godunko"]
+licenses = "Apache-2.0 WITH LLVM-exception"
+tags = ["embedded", "spi"]
+
+project-files = ["gnat/a0b_spi.gpr"]
+
+[configuration]
+disabled = true
+
+[[depends-on]]
+a0b_base = "*"
+a0b_callbacks = "*"
+
+
+[origin]
+commit = "a08c5866e2cd64cee6006be25691999ce2c675ec"
+url = "git+https://github.com/godunko/a0b-spi.git"
+
